@@ -88,3 +88,30 @@ width: 700PX;
 .third-banner-containe p{
   width: 700px;
 }
+.tag-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 40px 40px;
+    margin: 60px 300px;
+    border: solid red;
+    max-width: 2000px;
+    align-items: center;
+
+}
+#html-container{
+    margin: 40px;
+    padding: 20px ;
+    background-color: rgb(253, 249, 244);
+    border-radius: 8px;
+}
+#css-container{ margin: 40px;
+    padding: 20px;background-color: rgb(232, 242, 242);
+    border-radius: 8px;
+}
+#js-container{
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(251, 248, 255);
+    border-radius: 8px;
+}

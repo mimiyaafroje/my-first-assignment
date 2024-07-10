@@ -77,3 +77,14 @@ width: 700PX;
     align-items: center;
 
 }
+.third-banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 2000px;
+    align-items: center;
+}
+.third-banner-containe p{
+  width: 700px;
+}

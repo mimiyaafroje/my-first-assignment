@@ -3,18 +3,77 @@
     flex-direction: column;
     justify-content: center;
     height: 652px;
-    width: 1440px;
+    width: 2000px;
     align-items: center; background-image: url(../image/Hero-bg.png)
+
 }
 
  
 
 
 .freelanc-first-image button{  height: 65px;
-    width: 140px;
+    width: 500px;
     font-size: bold 30px;
     padding: 10px;
     margin: 10px;
     background-color: rgb(206, 151, 151);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
  }
+ 
+ 
+ .banner-container{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 2000px;
+    align-items: center;
+    
+ }
+ .banner-container p{
+    width:700px ;
+ }
+ .freelance-banner-container{
+   display: flex;
+   margin: 0px 120px 20px;
+   padding: 20px 200px;
+
+   background-color: rgb(243, 222, 222);
+   box-shadow: 10px 5px 5px rgb(220, 186, 186);
+  
+ }
+.second-freelance-banner-container{
+    display: flex;
+    margin:  0px 120px 20px;
+    padding: 20px 200px;
+   
+    background-color: rgb(243, 222, 222);
+    box-shadow: 10px 5px 5px rgb(220, 186, 186);
+}
+.third-freelance-banner-container{
+    display: flex;
+    margin: 0px 120px 20px;
+    padding: 20px 200px;
+  
+    background-color:  rgb(243, 222, 222);
+    box-shadow: 10px 5px 5px rgb(220, 186, 186);
+}
+.headline-banner{  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 2000px;
+    align-items: center;
+    
+}
+.headline-banner p{
+width: 700PX;
+}
+.youtube-profile{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 2000px;
+    align-items: center;
+
+}

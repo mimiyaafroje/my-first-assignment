@@ -37,7 +37,7 @@
    display: flex;
    margin: 0px 120px 20px;
    padding: 20px 200px;
-
+   max-width: 2000px;
    background-color: rgb(243, 222, 222);
    box-shadow: 10px 5px 5px rgb(220, 186, 186);
   
@@ -46,7 +46,7 @@
     display: flex;
     margin:  0px 120px 20px;
     padding: 20px 200px;
-   
+   max-width: 2000px;
     background-color: rgb(243, 222, 222);
     box-shadow: 10px 5px 5px rgb(220, 186, 186);
 }
@@ -54,7 +54,7 @@
     display: flex;
     margin: 0px 120px 20px;
     padding: 20px 200px;
-  
+    max-width: 2000px;
     background-color:  rgb(243, 222, 222);
     box-shadow: 10px 5px 5px rgb(220, 186, 186);
 }
@@ -77,13 +77,13 @@ width: 700PX;
     align-items: center;
 
 }
-.third-banner-container{
-    display: flex;
+.third-banner-container{display: flex;
     flex-direction: column;
     justify-content: center;
     height: 200px;
     width: 2000px;
     align-items: center;
+   
 }
 .third-banner-containe p{
   width: 700px;
@@ -94,7 +94,7 @@ width: 700PX;
     justify-content: center;
     padding: 40px 40px;
     margin: 60px 300px;
-    border: solid red;
+   
     max-width: 2000px;
     align-items: center;
 
@@ -105,13 +105,67 @@ width: 700PX;
     background-color: rgb(253, 249, 244);
     border-radius: 8px;
 }
+#html-container h4{
+    border-bottom: 2px solid black;
+    width: 35px;
+}
 #css-container{ margin: 40px;
     padding: 20px;background-color: rgb(232, 242, 242);
     border-radius: 8px;
+}
+#css-container h4{ border-bottom: 2px solid black;
+    width: 35px;
+
 }
 #js-container{
     margin: 40px;
     padding: 20px;
     background-color: rgb(251, 248, 255);
     border-radius: 8px;
+}
+#js-container h4{ border-bottom: 2px solid black;
+    width: 35px;
+
+}
+.supper-deal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+  background-image: url(../image/handshake.jpg);
+  height: 660px;
+  width: 1440px;
+  border-radius: 8px;
+  margin: 10px 300px;
+  background-position: center;
+   block-size: cover;
+    
+}
+.supper-deal-container h2{
+    font-style:inherit;
+    color: azure;
+    font-size: larger;
+    
+}
+.supper-deal-container p{
+    color: rgb(236, 237, 239);
+    font-size: larger;
+}
+#supper-input{
+    height: 60px;
+    width: 600px;
+    border-radius: 8px;
+}
+#supper-btn{
+    height: 55px;
+    width: 200px;
+    border-radius: 8px;
+    font-size: larger;
+    font-style:inherit;
+}
+.social-tags{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px;
+    
 }

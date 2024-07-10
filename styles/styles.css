@@ -12,13 +12,14 @@
 
 
 .freelanc-first-image button{  height: 65px;
-    width: 500px;
-    font-size: bold 30px;
+    width: 400px;
+    font-size:large;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(206, 151, 151);
+    background-color: rgb(26, 25, 25);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 5px;
+    color: aliceblue;
  }
  
  
@@ -38,8 +39,8 @@
    margin: 0px 120px 20px;
    padding: 20px 200px;
    max-width: 2000px;
-   background-color: rgb(243, 222, 222);
-   box-shadow: 10px 5px 5px rgb(220, 186, 186);
+   background-color: rgb(255, 253, 253);
+   box-shadow: 10px 5px 5px rgb(245, 244, 244);
   
  }
 .second-freelance-banner-container{
@@ -47,16 +48,16 @@
     margin:  0px 120px 20px;
     padding: 20px 200px;
    max-width: 2000px;
-    background-color: rgb(243, 222, 222);
-    box-shadow: 10px 5px 5px rgb(220, 186, 186);
+    background-color: rgb(251, 250, 250);
+    box-shadow: 10px 5px 5px rgb(243, 242, 242);
 }
 .third-freelance-banner-container{
     display: flex;
     margin: 0px 120px 20px;
     padding: 20px 200px;
     max-width: 2000px;
-    background-color:  rgb(243, 222, 222);
-    box-shadow: 10px 5px 5px rgb(220, 186, 186);
+    background-color:  rgb(255, 254, 254);
+    box-shadow: 10px 5px 5px rgb(244, 243, 243);
 }
 .headline-banner{  display: flex;
     flex-direction: column;
@@ -155,6 +156,8 @@ width: 700PX;
     height: 60px;
     width: 600px;
     border-radius: 8px;
+   font-style: normal;
+   text-align: center;
 }
 #supper-btn{
     height: 55px;
